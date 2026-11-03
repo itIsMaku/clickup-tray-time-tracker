@@ -1,0 +1,29 @@
+name: Bug report
+description: Report incorrect behavior or a crash.
+title: "[Bug]: "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Operating system and architecture
+      placeholder: macOS 15 / Apple Silicon, or Windows 11 / x64
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include expected and actual behavior. Remove tokens and private task data from screenshots or logs.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Include relevant errors, whether the timer changed in ClickUp, and how you installed the app.
