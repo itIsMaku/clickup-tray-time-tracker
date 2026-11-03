@@ -34,4 +34,6 @@ Use structured `Message` errors so an error can be rendered in the current langu
 
 ## Pull requests
 
+Use [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) for every commit, including initial commits and maintenance work. Write messages in English, for example `feat: add weekly goals`, `fix(api): preserve confirmed timer state`, or `docs: clarify setup`.
+
 Explain the concrete problem, the resulting behavior, and how you verified it. Include the OS and architecture for native UI changes. If you cannot test a platform, state that explicitly instead of claiming it works.
